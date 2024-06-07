@@ -30,7 +30,7 @@ run('DEF_RAM');
 run('DEF_ROM');
 load_system('DEF_Link');
 % Creating the test harness having source as 'From Workspace' and Sink 'Outport'
-% sltest.harness.create('DEF_Link', 'Name', 'DEF_Link_Harness', 'Source', 'From Workspace', 'Sink', 'Outport');
+sltest.harness.create('DEF_Link', 'Name', 'DEF_Link_Harness', 'Source', 'From Workspace', 'Sink', 'Outport');
 % Opening the test Harness model
 sltest.harness.open('DEF_Link','DEF_Link_Harness');
 %--------------------------------------------------------------------------
