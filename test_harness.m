@@ -12,10 +12,10 @@ time=data.Time;
 % valA and valB are two variables that contains the data extracted from
 % excel file's column 2 and 3 respectively
 % Input for First Variable
-valA = data.IH_ClimLinkDefrostAndClearnesPush;
+valA = data.A;
 % 2 represents column two
 % Input for Second Variable
-valB = data.ac_canIgnON_OFF;
+valB = data.B;
 % 3 represents column three
 % -------------------------------------------------------------------------
 % Converting time data in Seconds
