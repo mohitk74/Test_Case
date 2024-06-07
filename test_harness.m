@@ -26,7 +26,8 @@ IH_ClimLinkDefrostAndClearnesPush = timetable(time,valA);
 ac_canIgnON_OFF = timetable(time,valB);
 %--------------------------------------------------------------------------
 % Loading the simulink Model
-
+run('DEF_RAM.m');
+run('DEF_ROM.m');
 load_system('DEF_Link');
 % Creating the test harness having source as 'From Workspace' and Sink 'Outport'
 % sltest.harness.create('DEF_Link', 'Name', 'DEF_Link_Harness', 'Source', 'From Workspace', 'Sink', 'Outport');
